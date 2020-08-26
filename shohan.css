@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body{
+   margin: 0;
+	font-family: 'Alata', sans-serif;
+}
+nav{
+    width: 100%;height: 90px;
+    background-color: rgb(255, 253, 253);
+    
+}
+tr{
+   font-size: 20px;display: inline-block;
+   border-collapse: collapse;
+}
+.navbar:not(.cell){
+	 width: 160px;padding: 0;
+	 text-align: center;
+    position: relative;bottom: 1px;
+    border-right: 1px  solid rgb(207, 207, 207) ;
+    border-left: 1px  solid rgb(217, 216, 218) ;
+}
+.navbar:hover{
+    background-color: rgb(218, 218, 218);
+   
+}
+.cell{
+    position: relative;bottom: 1px;
+width: 140px; height:83px;
+font-size: 60px;margin-left: 100px;
+background-image: url('iconnew.png');
+}
+.link{
+    text-decoration: none;color: rgb(121, 120, 120); font-family: 'Alata', sans-serif;
+    font-weight: 400;font-size: 23px;
+}
+
+
+.main-div{
+    display: inline-block;
+    height: 1900px;width:65%;
+    position: relative;left: 240px;
+    padding-top: 3px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.main-header{
+    color: rgb(38, 135, 192);
+    font-size: 50px; text-align: center;
+    font-family: 'Lobster', cursive;font-weight: 500;
+    height: 120px;width:100%;
+    padding-top:30px;padding-left: 0px;
+    background-color: rgba(206, 214, 238, 0.87);
+    border-radius: 50px 50px 50px 50px ;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    box-shadow:0px 0px 5px 5px rgb(212, 212, 212)  ;
+}
+table{
+    position: relative;left: 200px;
+}
+.sale{
+    height: 35px;
+    background-color: rgb(251, 220, 183);color: rgb(141, 127, 46);
+    text-align: center;padding-top: 15px;
+}
+.benefit1 {
+    font-size: 34px;font-weight:600 ; 
+     padding-top: 0px;
+    font-family: 'Alata', sans-serif;
+    height: 200px;margin-top: 10px;
+    background-image: url('divbg1.png');
+    color: rgba(63, 63, 63, 0.863);
+}
+.description{
+    font-size: 22px;font-weight: 500;
+}
+.benefit2{
+    font-size: 34px;font-weight: 600;
+    padding-top: 0px;
+    font-family: 'Alata', sans-serif;
+    height: 200px;margin-top: 0px;
+    color: rgba(63, 63, 63, 0.863);
+    background-image: url('divbg2.png');
+    margin-top: 80px;
+}
+.description2{
+    font-size:22px;font-weight: 500;
+}
+.choice{
+    font-size: 40px; font-family: 'Alata', sans-serif;
+    text-align: center;
+    margin-top: 70px;margin-bottom:40px;height: 140px;
+    color:rgba(63, 63, 63, 0.863);
+}
+.iblock{
+    display: inline-block;
+}
+.block1{
+    height: 250px;
+    width: 230px;
+    background-image: url(block1bg.png);
+    margin-right: 20px;
+}  
+.block1:hover{
+	 background-image: url('block1hover.png');
+	 background-size: cover;
+    height:250px;width: 230px;
+	
+}
+.artsectorlist{
+	font-size: 24px; font-family: 'Alata', sans-serif;
+	color: rgb(121, 120, 120);
+	display: inline-block;
+	position: relative;bottom: 70px;
+	line-height:37px ;
+}
+.block2{
+	 height: 250px;
+    width: 230px;
+	 margin-right: 20px;
+    background-image: url('block2bg.png');
+}
+.block2:hover{
+	background-image: url(block2hover.png);
+}
+
+.businesssectorlist{
+	font-size: 24px; font-family: 'Alata', sans-serif;
+	color: rgb(121, 120, 120);
+	display: inline-block;
+	line-height:40px ;
+	position: relative;bottom: 95px;
+}
+.block3{
+	height: 250px;
+	width: 230px;
+	margin-right: 20px;
+	background-image: url('block3bg.png');
+}
+.block3:hover{
+	background-image: url('block3hover.png');
+}
+.techsectorlist{
+	font-size: 24px; font-family: 'Alata', sans-serif;
+	color: rgb(121, 120, 120);
+	display: inline-block;
+	position: relative;bottom: 50px;
+	line-height:40px ;
+}
